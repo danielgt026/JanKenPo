@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.Sobre"
+             Title="Sobre">
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25">
+
+        <Label
+            Text="Pedra, papel e tesoura, também chamado em algumas regiões do Brasil de jokenpô,é um jogo de mãos recreativo e simples para duas ou mais pessoas, que não requer equipamentos nem habilidade. O jogo é frequentemente empregado como método de seleção, assim como lançar moedas, jogar dados, entre outros."
+            FontSize="25"/>
+        <Label
+            Text="Baseado nesse jogo, Nós Alunos(Daniel e Gustavo) da ETEC HAS criamos esse JoKenPô"
+            FontSize="25"
+            />
+
+        <Frame BorderColor="Gray"
+            CornerRadius="10">
+            <StackLayout>
+            <Label Text="Daniel Gualberto Teixeira" />
+            <Label Text="DanielGT026"/>
+            </StackLayout>
+            
+
+        </Frame>
+
+        <Frame BorderColor="Gray"
+            CornerRadius="10">
+            <StackLayout>
+            <Label Text="Gustavo Henrique da Silva Paixão" />
+            <Label Text="Gustavo-cmut"/>
+            </StackLayout>
+        </Frame>
+
+
+
+
+    </VerticalStackLayout>
+</ContentPage>
